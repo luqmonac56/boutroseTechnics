@@ -1,0 +1,361 @@
+
+.contact-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width:100%;
+    color: #181e2c;
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.envelope , .phone{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+
+/*------------------------------
+         Contact section
+------------------------------*/
+.contact-section {
+    margin-top: -30px;
+    background-color: #e5ebf8;
+    text-align: left;                    
+}
+
+.contact-container {
+    width: 100%;
+    background-color: #fff;
+}
+
+.contact-left {
+    background-color: #e5ebf8;
+    padding: 40px;
+}
+
+.contact-left h2 {
+    color: #222;
+}
+
+.contact-left>p {
+    margin-top: 10px;
+    font-size: 16px;
+    padding-right: 0;
+    color: #222;
+    margin-bottom: 80px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.contact-info p {
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #222;
+}
+
+/* right side */
+.contact-right {
+    background-color: #181e2c;
+}
+
+.contact-right form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+.contact-right form input::placeholder {
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.contact-right input {
+    width: 80%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;    
+    padding:15px;
+    color: #fff;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+.contact-right input:focus {
+    outline: none;
+}
+
+.contact-right textarea {
+    background-color: transparent;
+    width: 80%;
+    resize: none;
+    height: 200px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;  
+    padding: 15px;
+    margin: 20px auto;
+    color: rgb(182, 173, 173);
+}
+
+.contact-right textarea:focus {
+    outline: none;
+}
+
+.contact-right textarea::placeholder {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.contact-right button {
+    width: 200px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;  
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin: 20px;
+}
+
+.contact-right button i {
+    padding-left: 10px;
+}
+
+.contact-right button:hover {
+    background-color: #222;
+    border: 2px solid #222;
+}
+
+/* 
+Tablet view 
+*/
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .contact-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width:auto;
+        color: #e5ebf8;
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contact-section {
+    background: #f6f5f7;
+    }
+
+    .contact-container {
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: 1px 15px 35px #000;
+        margin-top: 80px;
+
+    }
+
+    .contact-left {
+        background-color: #e5ebf8;
+        padding: 50px;
+    }
+
+
+
+}
+
+
+
+
+/* 
+desktop view 
+*/
+
+@media (min-width:992px){
+
+    .contact-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width:auto;
+        color: #e5ebf8;
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    /*------------------------------
+         Contact section
+------------------------------*/
+.contact-section {
+    margin-top: -30px;
+    margin-bottom: -40px;
+    height: 100vh;
+    display: flex;
+    background-color: #e5ebf8;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.contact-container {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    background-color: #fff;
+    box-shadow: 1px 15px 35px #000;
+}
+
+.contact-left {
+    flex: 1;
+    background-color: #fff;
+    padding: 60px;
+}
+
+.contact-left h2 {
+    color: #222;
+}
+
+.contact-left>p {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #222;
+    margin-bottom: 80px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info i {
+    padding: 15px;
+    color: #222;
+    font-size: 27px;
+}
+
+.contact-info p {
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #222;
+}
+
+/* right side */
+.contact-right {
+    flex: 1;
+    background-color: #181e2c;
+    /* background-color: #e5ebf8; */
+    /* background-color: #F79041; */
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 38%, 4% 35%, 0 32%, 0 0);
+}
+
+.contact-right form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+.contact-right form input::placeholder {
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.contact-right input {
+    width: 80%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;    
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+    margin: 25px;
+}
+
+.contact-right input:focus {
+    outline: none;
+}
+
+.contact-right textarea {
+    background-color: transparent;
+    width: 80%;
+    resize: none;
+    height: 200px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;  
+    padding: 15px;
+    margin: 25px;
+    color: #fff;
+}
+
+.contact-right textarea:focus {
+    outline: none;
+}
+
+.contact-right textarea::placeholder {
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.contact-right button {
+    width: 200px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;  
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin: 20px;
+}
+
+.contact-right button i {
+    padding-left: 10px;
+}
+
+.contact-right button:hover {
+    background-color: #222;
+    border: 2px solid #222;
+}
+
+}

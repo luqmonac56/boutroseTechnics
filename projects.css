@@ -1,0 +1,373 @@
+.section2{
+    color: #4b4b4b;
+    padding-top: 10px;
+}
+
+.section2 .projects{
+    font-size: 45px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.latest-projects{
+    background-color:#e5ebf8;
+    padding: 7px 0;
+    margin-bottom: 5px;
+}
+
+.latest-projects img{
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+
+.previous-project img{
+    width: 100%;
+    /* height: 100%; */
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.section2 button.btn-link{
+    font-size: 20px;
+    color: #181e2c;
+    text-align: right;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.section2 button.btn-link:focus, .section2 button.btn-link:active , .section2 button.btn-link:hover{
+    border: none;
+    outline: none;
+}
+
+
+
+
+.projects-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width:100%;
+    color: #e5ebf8;
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518032/20_df6wvl.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* 
+Tablet view 
+*/
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .flex{
+        display: flex;
+        width: 100%;
+        max-width: 1440px;
+        /* height: 100%; */
+        flex-wrap: wrap;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .flex img{
+        width: 100%;
+        /* height: 100%; */
+        overflow: hidden;
+        cursor: pointer;
+        flex: 1 0 39%;
+        /* align-items: center; */
+   }
+
+
+   .section2 button.btn-link{
+    font-size: 20px;
+    color: #181e2c;
+    text-align: right;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: 18px;
+    }
+
+   .projects-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width:auto;
+    color: #e5ebf8;
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518032/20_df6wvl.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+
+
+   /* footer */
+
+   footer{
+    width: auto;
+    font-size: 16px;
+    /* margin-top: -200px; */
+    }
+
+    .logos{
+        margin-left: 2%;
+    }
+
+    
+    .logos img{
+        margin-left: 7px;
+        margin-right: 7px;
+        width: 20px;
+    }
+
+    .logos .logo2{
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+            
+            
+    .ul1 li{ 
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .ul2 li{
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .ul1 li a, .ul2 li a{
+        font-size: 16px;
+    }
+            
+            
+    ul li a{
+        text-align: left;
+        color: white;
+    }
+            
+    .lastPart{
+        padding-right: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    footer.flex{
+        max-width: 1400px;
+        margin: 40px auto 0 auto;
+        line-height: 1.6rem;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+        
+    .logos,.ul1{
+        box-sizing: border-box;
+    }
+        
+
+
+    footer .profile{
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .lastPart p{
+        margin-top: 20px;
+    }
+    
+}
+
+
+
+
+/* desktop-view */
+
+
+@media (min-width:992px){ 
+
+    /* nav bar styling */
+    .desktop-nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #181e2c;
+        box-shadow: 0 7px 20px rgba(14, 26, 48, 0.25);;
+        padding: 10px 0;
+    }
+
+    .flex{
+        align-items: center;
+        display: flex;
+        width: 100%;
+        max-width: 1440px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .flex img{
+        overflow: hidden;
+        cursor: pointer;
+        flex: 1 0 25%;
+    }
+
+   .projects-image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width:auto;
+        color: #e5ebf8;
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518032/20_df6wvl.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section2 button.btn-link{
+        font-size: 20px;
+        color: #181e2c;
+        text-align: right;
+        padding: 0 20px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        display: flex;
+        margin-left: 15px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .nav-ul li{
+        display: inline-block;
+        padding: 0 30px;
+    }
+
+    .nav-ul li a{
+        color: #e5ebf8;
+        padding-bottom: 10px;
+        transition: all .3s ease-in-out;
+
+    }
+
+    .nav-ul li a:hover{
+        border-bottom: 2px solid #e7e7e7;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+
+
+
+    /* footer */
+
+    footer{
+        /* padding:0 7%; */
+        width: auto;
+        font-size: 16px;
+        /* margin-top: -200px; */
+        /* display: flex; */
+    }
+    
+    .logos{
+        margin-left: 7%;
+    }
+
+       
+    .logos img{
+        margin-left: 7px;
+        margin-right: 7px;
+        width: 20px;
+    }
+
+    .logos .logo2{
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+            
+            
+    .ul1 li{ 
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .ul2 li{
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .ul1 li a, .ul2 li a{
+        font-size: 16px;
+    }
+            
+            
+    ul li a{
+        text-align: left;
+        color: white;
+    }
+            
+    .lastPart{
+        padding-right: 80px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    footer.flex{
+        max-width: 1400px;
+        margin: 40px auto 0 auto;
+        line-height: 1.6rem;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+        
+    .logos,.ul1{
+        box-sizing: border-box;
+    }
+        
+
+
+    footer .profile{
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .lastPart p{
+        margin-top: 20px;
+    }
+
+}
