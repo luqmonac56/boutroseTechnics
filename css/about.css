@@ -1,0 +1,407 @@
+.section3{
+    padding: 0 20px;
+    margin-bottom: 70px;
+}
+
+.section3 .about{
+    font-size: 45px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+
+.section3 .few-words{
+    max-width: 1400px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(65, 2, 2, 0.22);
+    padding: 15px 20px 10px 20px;
+    margin-bottom: 30px;
+}
+
+.section3 .few-words p{
+    text-align: left;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+
+.mission{
+    background-color: #181e2c;
+    color: #e5ebf8;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.vision{
+    background-color: #e5ebf8;
+    color: #181e2c;
+    padding: 20px;
+}
+
+.section3 .about-us{
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.section3 .mission-vison .mission p{
+    text-align: left;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.section3 .mission-vison .vision p{
+    text-align: left;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.our-client{
+    margin:40px 0;
+}
+
+.carousel-item {
+    margin-top: 30px;
+}
+
+.ui-logo, .osun-logo{
+    height: 100px;
+    width: auto;
+}
+
+.about-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width:100%;
+    color: #e5ebf8;
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518020/28_ootswz.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile{
+    color: #181e2c;
+    background-color: #e5ebf8;
+    padding: 10px 20px;
+    transition: all .3s linear;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(65, 2, 2, 0.22);
+}
+
+.profile:hover{
+    color: #e5ebf8;
+    background-color: #181e2c;
+
+}
+
+.about-us-image-for-desktop{
+    display: none;
+}
+
+
+/* 
+Tablet view 
+*/
+
+@media (min-width: 768px) and (max-width: 991px){
+
+
+    .about-image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width:auto;
+        color: #e5ebf8;
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518020/28_ootswz.jpg);
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+ 
+    .mission-vison{
+        display:  flex;
+        justify-content: space-evenly;
+        line-height: 1.6rem;
+        max-width: 1400px;
+        margin: 40px auto 0 auto;
+    }
+
+    .mission{
+        background-color: #181e2c;
+        color: #e5ebf8;
+        padding: 20px;
+        box-sizing: border-box;
+        flex-basis: 46%;
+        margin-bottom: 0px;
+        
+    }
+
+    .vision{
+        background-color: #e5ebf8;
+        color: #181e2c;
+        padding: 20px;
+        box-sizing: border-box;
+        flex-basis: 46%;
+    }
+
+   footer{
+    width: auto;
+    font-size: 16px;
+    margin-top: -200px;
+    }
+
+    .logos{
+        margin-left: 2%;
+    }
+
+    
+    .logos img{
+        margin-left: 7px;
+        margin-right: 7px;
+        width: 20px;
+    }
+
+    .logos .logo2{
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+            
+            
+    .ul1 li{ 
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .ul2 li{
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .ul1 li a, .ul2 li a{
+        font-size: 16px;
+    }
+            
+            
+    ul li a{
+        text-align: left;
+        color: white;
+    }
+            
+    .lastPart{
+        padding-right: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    footer.flex{
+        max-width: 1400px;
+        margin: 40px auto 0 auto;
+        line-height: 1.6rem;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+        
+    .logos,.ul1{
+        box-sizing: border-box;
+    }
+        
+
+
+    footer .profile{
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .lastPart p{
+        margin-top: 20px;
+    }
+
+
+} 
+
+
+/* 
+desktop view 
+*/
+
+@media (min-width:992px){
+    /* nav bar styling */
+    .desktop-nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #181e2c;
+        box-shadow: 0 7px 20px rgba(14, 26, 48, 0.25);;
+        padding: 10px 0;
+        position: fixed;
+        z-index: 999;
+    }
+
+    .about-image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width:auto;
+        color: #e5ebf8;
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518020/28_ootswz.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .mission-vison{
+        display:  flex;
+        justify-content: space-evenly;
+        line-height: 1.6rem;
+        max-width: 1400px;
+        margin: 40px auto 0 auto;
+    }
+
+    .mission{
+        background-color: #181e2c;
+        color: #e5ebf8;
+        padding: 20px;
+        box-sizing: border-box;
+        flex-basis: 46%;
+        margin-bottom: 0;
+    }
+
+    .vision{
+        background-color: #e5ebf8;
+        color: #181e2c;
+        padding: 20px;
+        box-sizing: border-box;
+        flex-basis: 46%;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .nav-ul li{
+        display: inline-block;
+        /* margin-right: 30px; */
+        padding: 0 30px;
+    }
+
+    .nav-ul li a{
+        color: #e5ebf8;
+        padding-bottom: 10px;
+        transition: all .3s ease-in-out;
+
+    }
+
+    .nav-ul li a:hover{
+        border-bottom: 2px solid #e7e7e7;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+
+
+
+    /* footer */
+
+    footer{
+        width: auto;
+        font-size: 16px;
+        margin-top: -200px;
+        }
+    
+    .logos{
+        margin-left: 7%;
+        }
+
+       
+    .logos img{
+        margin-left: 7px;
+        margin-right: 7px;
+        width: 20px;
+        }
+
+    .logos .logo2{
+        margin-top: 0;
+        margin-bottom: 2rem;
+        }
+            
+            
+    .ul1 li{ 
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 16px;
+        }
+
+    .ul2 li{
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 16px;
+        }
+
+    .ul1 li a, .ul2 li a{
+        font-size: 16px;
+        }
+            
+            
+    ul li a{
+        text-align: left;
+        color: white;
+        }
+            
+    .lastPart{
+        padding-right: 80px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        flex-direction: column;
+        }
+
+    footer.flex{
+        max-width: 1400px;
+        margin: 40px auto 0 auto;
+        line-height: 1.6rem;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        }
+        
+    .logos,.ul1{
+        box-sizing: border-box;
+        }
+        
+
+
+    footer .profile{
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .lastPart p{
+        margin-top: 20px;
+    }
+
+}
