@@ -3,13 +3,13 @@
  Realy Light Blue: #e5ebf8; 
 */
 
-*{
+* {
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -18,44 +18,49 @@ body{
     text-align: center;
 }
 
-
-.logo{
+.logo {
     width: 180px;
     height: 35px;
 }
 
-header{
+header {
     background-attachment: fixed;
     background-size: cover;
     height: 60vh;
     background-position: center;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
+.hide {
+    display: none;
+}
 
-.carousel, .carousel-item{
+.show {
+    display: block;
+}
+
+.carousel,
+.carousel-item {
     margin-top: 0px;
 }
 
-.carousel-item h2{
+.carousel-item h2 {
     font-size: 40px;
     text-align: center;
-
 }
 
-.carousel-item p{
+.carousel-item p {
     text-align: center;
     padding: 0 20px;
 }
 
-
-.first{
+.first {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 60vh;
-    width:auto;
+    width: auto;
     color: #e5ebf8;
     background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
     background-attachment: fixed;
@@ -65,7 +70,7 @@ header{
     margin-top: -30px;
 }
 
-.second{
+.second {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,7 +84,7 @@ header{
     margin-top: -30px;
 }
 
-.third{
+.third {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +98,7 @@ header{
     margin-top: -30px;
 }
 
-.fourth{
+.fourth {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,84 +112,89 @@ header{
     margin-top: -30px;
 }
 
-.btn{
-    outline:none;
+.btn {
+    outline: none;
     border: none;
     color: #4b4b4b;
     margin-bottom: 10px;
     text-decoration: none;
 }
 
-.btn:hover{
+#simpleModal ul li:hover {
+    background-color: #5cace6c0;
+}
+
+.btn:hover {
     text-decoration: none;
 }
 
-.btn:focus{
+.btn:focus {
     text-decoration: none;
-    outline:none;
+    outline: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
-.section1{
-    width:100%;
+.section1 {
+    width: 100%;
     max-width: 1440px;
     height: 100%;
     color: #4b4b4b;
     padding-bottom: 50px;
 }
 
-.section1 .our-services{
+.section1 .our-services {
     font-size: 35px;
     padding-top: 10px;
 }
 
-.section1a{
-    width:90%;
+.section1a {
+    width: 90%;
     margin: 20px auto;
     color: #4b4b4b;
     box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(65, 2, 2, 0.22);
 }
 
-
-.section1a img{
+.section1a img {
     width: 100%;
     padding: 10px 20px 0 20px;
 }
-.section1a h2{
+
+.section1a h2 {
     font-size: 25px;
     margin-top: 10px;
     padding: 0px 10px;
 }
 
-.section1a p{
+.section1a p {
     padding: 0px 20px 10px 20px;
     margin: 0;
     line-height: 1.5rem;
 }
 
-.section1a ul li{
+.section1a ul li {
     list-style-type: disc;
     color: #4b4b4b;
     text-align: left;
 }
 
-.our-client{
-    margin:40px 0;
+.our-client {
+    margin: 40px 0;
 }
 
 .carousel-item {
     margin-top: 30px;
 }
 
-.ui-logo, .osun-logo{
+.ui-logo,
+.osun-logo {
     height: 100px;
     width: auto;
 }
 
-.profile{
+.profile {
     color: #181e2c;
     background-color: #e5ebf8;
     padding: 10px 20px;
@@ -196,75 +206,69 @@ a:hover{
     box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(65, 2, 2, 0.22);
 }
 
-.profile:hover{
+.profile:hover {
     color: #e5ebf8;
     background-color: #181e2c;
-
 }
 
-
-
-footer{
-    background:hsl(233, 26%, 24%);
+footer {
+    background: hsl(233, 26%, 24%);
 }
 
-.logos .logo2{
+.logos .logo2 {
     margin-top: 3.5rem;
     margin-bottom: 2rem;
-    width:180px;
+    width: 180px;
 }
 
-.logos img{
+.logos img {
     margin-left: 7px;
     margin-right: 7px;
     width: 30px;
     margin-bottom: 30px;
 }
 
-footer ul{
+footer ul {
     padding: 0;
 }
 
-.ul1{
+.ul1 {
     margin-bottom: 0;
     margin-top: 0;
 }
 
-.ul1 li{ 
+.ul1 li {
     margin-bottom: 3rem;
     margin-top: 0;
     text-align: center;
 }
-.ul2 li{
+
+.ul2 li {
     margin-bottom: 3rem;
     text-align: center;
     margin-top: 0;
 }
 
-.ul2:last-child{
+.ul2:last-child {
     margin-bottom: 0;
 }
 
- ul li a.last{
+ul li a.last {
     margin-bottom: 0;
 }
 
-
-ul li a{
+ul li a {
     margin-bottom: 0;
     text-align: center;
     color: white;
-
 }
 
-ul li{
+ul li {
     text-align: center;
     color: white;
-
 }
 
-
-.lastPart p{
+.lastPart p {
     position: relative;
     margin-top: 50px;
     color: white;
@@ -274,59 +278,52 @@ ul li{
 .lastPart {
     height: 150px;
     margin-top: 0;
-
-
 }
 
-a:hover{
+a:hover {
     color: #181e2c;
 }
 
-.desktop-nav{
+.desktop-nav {
     display: none;
 }
-
 
 
 /* 
 desktop view 
 */
 
-@media (min-width:992px){
+@media (min-width:992px) {
     /* nav bar styling */
-    .desktop-nav{
+    .desktop-nav {
         display: flex;
         width: 100%;
         justify-content: space-between;
         align-items: center;
         background-color: #181e2c;
-        box-shadow: 0 7px 20px rgba(14, 26, 48, 0.25);;
+        box-shadow: 0 7px 20px rgba(14, 26, 48, 0.25);
+        ;
         padding: 10px 0;
         position: fixed;
         z-index: 999;
     }
-
-    .nav-ul{
-     margin-bottom: 0; 
+    .nav-ul {
+        margin-bottom: 0;
     }
-
-
-    header{
+    header {
         background-attachment: fixed;
         background-size: cover;
         height: 90vh;
         background-position: center;
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
-    
-    
-    .first{
+    .first {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 90vh;
-        width:auto;
+        width: auto;
         color: #e5ebf8;
         background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
         background-attachment: fixed;
@@ -334,8 +331,7 @@ desktop view
         background-size: cover;
         background-position: center;
     }
-    
-    .second{
+    .second {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -348,8 +344,7 @@ desktop view
         background-size: cover;
         background-position: center;
     }
-    
-    .third{
+    .third {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -362,8 +357,7 @@ desktop view
         background-size: cover;
         background-position: center;
     }
-    
-    .fourth{
+    .fourth {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -376,131 +370,102 @@ desktop view
         background-size: cover;
         background-position: center;
     }
-
-    .flex{
+    .flex {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
     }
-    .section1a{
+    .section1a {
         margin: 1%;
         overflow: hidden;
         cursor: pointer;
         flex: 1 0 25%;
-   }
-
-
-    nav{
+    }
+    nav {
         display: none;
     }
-
-    .logo{
+    .logo {
         margin-left: 30px;
         cursor: pointer;
     }
-
-    .nav-ul li{
+    .nav-ul li {
         display: inline-block;
         padding: 0 30px;
     }
-
-    .nav-ul li a{
+    .nav-ul li a {
         color: #e5ebf8;
         padding-bottom: 10px;
         transition: all .3s ease-in-out;
-
     }
-
-    .nav-ul li a:hover{
+    .nav-ul li a:hover {
         border-bottom: 2px solid #e7e7e7;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
     }
-
-
-
-
     /* footer */
-
-    footer{
+    footer {
         /* padding:0 7%; */
         width: auto;
         font-size: 16px;
         margin-top: -200px;
         /* display: flex; */
-        }
-    
-    .logos{
+    }
+    .logos {
         margin-left: 7%;
-        }
-
-       
-    .logos img{
+    }
+    .logos img {
         margin-left: 7px;
         margin-right: 7px;
         width: 20px;
-        }
-
-    .logos .logo2{
+    }
+    .logos .logo2 {
         margin-top: 0;
         margin-bottom: 2rem;
-        }
-            
-            
-    .ul1 li{ 
+    }
+    .ul1 li {
         margin-bottom: 1rem;
         text-align: left;
         font-size: 16px;
-        }
-
-    .ul2 li{
+    }
+    .ul2 li {
         margin-bottom: 1rem;
         text-align: left;
         font-size: 16px;
-        }
-
-    .ul1 li a, .ul2 li a{
+    }
+    .ul1 li a,
+    .ul2 li a {
         font-size: 16px;
-        }
-            
-            
-    ul li a{
+    }
+    ul li a {
         text-align: left;
         color: white;
-        }
-            
-    .lastPart{
+    }
+    .lastPart {
         padding-right: 80px;
         display: flex;
         justify-content: left;
         align-items: flex-end;
         flex-direction: column;
-        }
-
-    footer.flex{
+    }
+    footer.flex {
         max-width: 1400px;
         margin: 40px auto 0 auto;
         line-height: 1.6rem;
         justify-content: space-between;
         align-items: center;
         display: flex;
-        }
-        
-    .logos,.ul1{
+    }
+    .logos,
+    .ul1 {
         box-sizing: border-box;
-        }
-        
-
-
-    footer .profile{
+    }
+    footer .profile {
         margin-bottom: 0;
         margin-top: 20px;
     }
-
-    .lastPart p{
+    .lastPart p {
         margin-top: 20px;
     }
-
 }
 
 
@@ -508,94 +473,78 @@ desktop view
 Tablet view 
 */
 
-@media (min-width: 768px) and (max-width: 991px){
- 
-
-
-    .logo{
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
         width: 200px;
         height: 35px;
     }
-
     /* nav bar styling */
-    .desktop-nav{
+    .desktop-nav {
         display: flex;
         width: 100%;
         justify-content: space-between;
         align-items: center;
         background-color: #181e2c;
-        box-shadow: 0 7px 20px rgba(14, 26, 48, 0.25);;
+        box-shadow: 0 7px 20px rgba(14, 26, 48, 0.25);
+        ;
         padding: 10px 0;
         position: fixed;
         z-index: 999;
     }
-
-
-    nav{
+    nav {
         display: none;
     }
-
-    .logo{
+    .logo {
         margin-left: 30px;
         cursor: pointer;
     }
-
-    .nav-ul{
+    .nav-ul {
         display: flex;
         align-items: center;
         justify-content: center;
         /* margin-bottom: 0; */
         margin: auto;
     }
-
-    .nav-ul li{
-        margin-right: 20px ;
+    .nav-ul li {
+        margin-right: 20px;
     }
-
-    .nav-ul li a{
+    .nav-ul li a {
         color: #e5ebf8;
         padding-bottom: 10px;
         transition: all .3s ease-in-out;
-
     }
-
-    .nav-ul li a:hover{
+    .nav-ul li a:hover {
         border-bottom: 2px solid #e7e7e7;
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
     }
-
-    .flex{
+    .flex {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
         padding: 0 30px;
     }
-
-    .section1a{
+    .section1a {
         margin: 20px 20px;
         overflow: hidden;
         cursor: pointer;
         flex: 1 0 39%;
     }
-
-   header{
+    header {
         background-attachment: fixed;
         background-size: cover;
         height: 80vh;
         width: auto;
         background-position: center;
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
-
-
-    .first{
+    .first {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 80vh;
-        width:auto;
+        width: auto;
         color: #e5ebf8;
         background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
         background-attachment: fixed;
@@ -603,8 +552,7 @@ Tablet view
         background-size: cover;
         background-position: center;
     }
-
-    .second{
+    .second {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -616,8 +564,7 @@ Tablet view
         background-size: cover;
         background-position: center;
     }
-
-    .third{
+    .third {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -629,8 +576,7 @@ Tablet view
         background-size: cover;
         background-position: center;
     }
-
-    .fourth{
+    .fourth {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -642,61 +588,49 @@ Tablet view
         background-size: cover;
         background-position: center;
     }
-
-    footer{
+    footer {
         width: auto;
         font-size: 16px;
         margin-top: -200px;
     }
-
-    .logos{
+    .logos {
         margin-left: 2%;
     }
-
-    
-    .logos img{
+    .logos img {
         margin-left: 7px;
         margin-right: 7px;
         width: 20px;
     }
-
-    .logos .logo2{
+    .logos .logo2 {
         margin-top: 0;
         margin-bottom: 2rem;
     }
-            
-            
-    .ul1 li{ 
+    .ul1 li {
         margin-bottom: 1rem;
         text-align: left;
         font-size: 16px;
     }
-
-    .ul2 li{
+    .ul2 li {
         margin-bottom: 1rem;
         text-align: left;
         font-size: 16px;
     }
-
-    .ul1 li a, .ul2 li a{
+    .ul1 li a,
+    .ul2 li a {
         font-size: 16px;
     }
-            
-            
-    ul li a{
+    ul li a {
         text-align: left;
         color: white;
     }
-            
-    .lastPart{
+    .lastPart {
         padding-right: 10px;
         display: flex;
         justify-content: left;
         align-items: flex-end;
         flex-direction: column;
     }
-
-    footer.flex{
+    footer.flex {
         max-width: 1400px;
         margin: 40px auto 0 auto;
         line-height: 1.6rem;
@@ -704,26 +638,20 @@ Tablet view
         align-items: center;
         display: flex;
     }
-        
-    .logos,.ul1{
+    .logos,
+    .ul1 {
         box-sizing: border-box;
     }
-        
-
-
-    footer .profile{
+    footer .profile {
         margin-bottom: 0;
         margin-top: 20px;
     }
-
-    .lastPart p{
+    .lastPart p {
         margin-top: 20px;
     }
-
-
 }
 
-.button{
+.button {
     color: #fff;
     border: 0;
     position: relative;
@@ -732,11 +660,11 @@ Tablet view
     padding-right: 20px;
 }
 
-.button:hover{
+.button:hover {
     cursor: pointer;
 }
 
-.modal{
+.modal {
     display: none;
     position: fixed;
     z-index: 10;
@@ -745,48 +673,49 @@ Tablet view
     height: 100vh;
     width: 100vw;
     overflow: auto;
-    background-color:rgba(0, 0, 0, 0.411) ;
+    background-color: rgba(0, 0, 0, 0.411);
     margin-top: 55px;
 }
 
-nav .logo{
+nav .logo {
     margin: 10px auto;
     float: left;
     padding-left: 20px;
 }
 
-nav .logo:hover{
+nav .logo:hover {
     cursor: pointer;
 }
 
-nav{
+nav {
     height: 50px;
 }
-.modal-content .nav-ul li a{
+
+.modal-content .nav-ul li a {
     color: black;
     margin-bottom: 30px;
 }
 
-.modal-content .nav-ul li{
+.modal-content .nav-ul li {
     margin-bottom: 30px;
     position: relative;
     right: 20px;
     font-size: 20px;
 }
 
-.modal-content{
+.modal-content {
     background: rgb(255, 255, 255);
-    border-radius:5px;
+    border-radius: 5px;
     margin: 10% auto;
     padding: 20px;
     width: 70%;
     animation-name: modalopen;
     animation-duration: .5s;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.274),0 8px 18px 0 rgba(0, 0, 0, 0.185);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.274), 0 8px 18px 0 rgba(0, 0, 0, 0.185);
     margin-bottom: 100px !important;
-
 }
-.closeBtn{
+
+.closeBtn {
     float: right;
     color: #fff;
     border: 0;
@@ -796,25 +725,28 @@ nav{
     padding-right: 20px;
 }
 
-.closeBtn:hover, .closeBtn:focus{
+.closeBtn:hover,
+.closeBtn:focus {
     color: rgb(238, 238, 238);
     text-decoration: none;
     cursor: pointer;
 }
-@keyframes  modalopen{
-    from{
+
+@keyframes modalopen {
+    from {
         opacity: 0;
     }
-    to{
+    to {
         opacity: 1;
     }
 }
+
 
 /*------------------------------
    back to top button
 ------------------------------*/
 
-.back-to-top{
+.back-to-top {
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -831,7 +763,7 @@ nav{
     align-items: center;
 }
 
-.back-to-top div{
+.back-to-top div {
     border: solid #fff;
     border-width: 0 3px 3px 0;
     display: inline-block;
