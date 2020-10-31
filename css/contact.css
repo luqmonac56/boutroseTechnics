@@ -7,7 +7,7 @@
     height: 60vh;
     width:100%;
     color: #181e2c;
-    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
+    background: url(../images/24.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,7 +162,7 @@ Tablet view
         height: 70vh;
         width:auto;
         color: #e5ebf8;
-        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
+        background: url(../images/24.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
@@ -207,7 +207,7 @@ desktop view
         height: 90vh;
         width:auto;
         color: #e5ebf8;
-        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603518034/24_lpmcga.jpg);
+        background: url(../images/24.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
