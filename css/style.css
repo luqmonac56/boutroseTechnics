@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    transition: all .3s  ease-in;
 }
 
 body {
@@ -112,6 +113,10 @@ header {
     margin-top: -30px;
 }
 
+.first h2, .first p, .second h2, .second p, .third h2 , .third p, .fourth h2, .fourth p{
+    text-shadow:  1px 1px 1px #181e2c;
+}
+
 .btn {
     outline: none;
     border: none;
@@ -121,7 +126,7 @@ header {
 }
 
 #simpleModal ul li:hover {
-    background-color: #5cace6c0;
+    background-color:#5cace6c0;
 }
 
 .btn:hover {
@@ -159,7 +164,7 @@ a:hover {
 
 .section1a img {
     width: 100%;
-    padding: 10px 20px 0 20px;
+    /* padding: 10px 20px 0 20px; */
 }
 
 .section1a h2 {
@@ -502,7 +507,6 @@ Tablet view
         display: flex;
         align-items: center;
         justify-content: center;
-        /* margin-bottom: 0; */
         margin: auto;
     }
     .nav-ul li {

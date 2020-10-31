@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-shadow:  1px 3px 1px #181e2c;
     height: 60vh;
     width:100%;
     color: #181e2c;
