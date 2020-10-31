@@ -91,7 +91,7 @@ header {
     align-items: center;
     height: 60vh;
     color: #e5ebf8;
-    background: url(../images/1.jpg);
+    background-image: url(../images/1.JPG);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -339,7 +339,7 @@ desktop view
         height: 90vh;
         width: auto;
         color: #e5ebf8;
-        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603517999/3_qu3kba.jpg);
+        background: url(../images/3.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -352,7 +352,7 @@ desktop view
         height: 90vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/1.jpg);
+        background: url(../images/1.JPG);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -365,7 +365,7 @@ desktop view
         height: 90vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/28.jpeg);
+        background: url(../images/28.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -560,7 +560,7 @@ Tablet view
         height: 80vh;
         width: auto;
         color: #e5ebf8;
-        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603517999/3_qu3kba.jpg);
+        background: url(../images/3.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -572,7 +572,7 @@ Tablet view
         height: 80vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/1.jpg);
+        background: url(../images/1.JPG);
         background-size: cover;
         background-position: center;
     }
@@ -584,7 +584,7 @@ Tablet view
         height: 80vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/28.jpeg);
+        background: url(../images/28.jpg);
         background-size: cover;
         background-position: center;
     }
