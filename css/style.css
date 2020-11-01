@@ -55,6 +55,16 @@ header {
     padding: 0 20px;
 }
 
+.first h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.first p {
+    text-align: center;
+    padding: 0 20px;
+}
+
 .first {
     display: flex;
     flex-direction: column;
@@ -69,6 +79,7 @@ header {
     background-size: cover;
     background-position: center;
     margin-top: -30px;
+    text-shadow:  3px 1px 1px #181e2c;
 }
 
 .second {
@@ -115,6 +126,7 @@ header {
 
 .first h2, .first p, .second h2, .second p, .third h2 , .third p, .fourth h2, .fourth p{
     text-shadow:  1px 1px 1px #181e2c;
+
 }
 
 .btn {
