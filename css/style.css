@@ -59,7 +59,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: -30px;
 }
 
 .second {
@@ -73,7 +72,6 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    margin-top: -30px;
 }
 
 .third {
@@ -87,7 +85,6 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin-top: -30px;
 }
 
 .fourth {
@@ -101,7 +98,6 @@ header {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    margin-top: -30px;
 }
 
 .first h2,.second h2,  .third h2 ,.fourth h2, .about-image h2, .projects-image h2 , .contact-img h2{
@@ -165,7 +161,6 @@ a:hover {
 
 .section1a img {
     width: 100%;
-    /* padding: 10px 20px 0 20px; */
 }
 
 .section1a h2 {
@@ -308,7 +303,6 @@ desktop view
         align-items: center;
         background-color: #181e2c;
         box-shadow: 0 7px 20px rgba(14, 26, 48, 0.25);
-        ;
         padding: 10px 0;
         position: fixed;
         z-index: 999;
@@ -656,6 +650,7 @@ Tablet view
     }
 }
 
+
 .button {
     color: #fff;
     border: 0;
@@ -679,7 +674,7 @@ Tablet view
     width: 100vw;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.411);
-    margin-top: 55px;
+    margin-top: 50px;
 }
 
 nav .logo {
@@ -694,6 +689,11 @@ nav .logo:hover {
 
 nav {
     height: 50px;
+    position: fixed;
+    z-index: 999;
+    background-color: #e5ebf8;
+    width: 100%;
+    box-shadow: 0 7px 20px rgba(14, 26, 48, 0.25);
 }
 
 .modal-content .nav-ul li a {
@@ -725,7 +725,6 @@ nav {
     color: #fff;
     border: 0;
     position: relative;
-    float: right;
     margin: 20px auto 0 auto;
     padding-right: 20px;
 }

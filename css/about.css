@@ -5,7 +5,7 @@
 
 .section3 .about{
     font-size: 45px;
-    margin: 0 0 10px 0;
+    margin: 50px 0 10px 0;
     font-weight: 500;
     word-spacing: 4px;
 }
@@ -74,7 +74,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 65vh;
     width:100%;
     color: #e5ebf8;
     background: url(../images/28.jpg);
