@@ -17,6 +17,7 @@ body {
     background: #f6f5f7;
     color: #4b4b4b;
     text-align: center;
+    max-width: 1440px;
 }
 
 .logo {
@@ -45,26 +46,6 @@ header {
     margin-top: 0px;
 }
 
-.carousel-item h2 {
-    font-size: 40px;
-    text-align: center;
-}
-
-.carousel-item p {
-    text-align: center;
-    padding: 0 20px;
-}
-
-.first h2{
-    font-size: 40px;
-    text-align: center;
-}
-
-.first p {
-    text-align: center;
-    padding: 0 20px;
-}
-
 .first {
     display: flex;
     flex-direction: column;
@@ -79,7 +60,6 @@ header {
     background-size: cover;
     background-position: center;
     margin-top: -30px;
-    text-shadow:  3px 1px 1px #181e2c;
 }
 
 .second {
@@ -124,9 +104,18 @@ header {
     margin-top: -30px;
 }
 
-.first h2, .first p, .second h2, .second p, .third h2 , .third p, .fourth h2, .fourth p{
-    text-shadow:  1px 1px 1px #181e2c;
+.first h2,.second h2,  .third h2 ,.fourth h2, .about-image h2, .projects-image h2 , .contact-img h2{
+    text-shadow: 2px 1px 1px #181e2c;
+    font-size: 40px;
+    text-align: center;
 
+}
+
+ .first p, .second p, .third p,  .fourth p,.about-image p,.contact-img p,  .projects-image p{
+    text-shadow: 2px 1px 1px #181e2c;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 18px;
 }
 
 .btn {

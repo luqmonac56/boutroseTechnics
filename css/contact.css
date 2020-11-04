@@ -4,10 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-shadow:  1px 1px 1px #181e2c;
     height: 60vh;
     width:100%;
-    /* color: #181e2c; */
     color: #e5ebf8;
     background: url(../images/24.jpg);
     background-attachment: fixed;
@@ -245,10 +243,6 @@ desktop view
     padding: 60px;
 }
 
-.contact-left h2 {
-    color: #222;
-}
-
 .contact-left>p {
     margin-top: 10px;
     font-size: 17px;
@@ -277,8 +271,6 @@ desktop view
 .contact-right {
     flex: 1;
     background-color: #181e2c;
-    /* background-color: #e5ebf8; */
-    /* background-color: #F79041; */
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 38%, 4% 35%, 0 32%, 0 0);
 }
 
