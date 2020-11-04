@@ -84,25 +84,6 @@
    background-position: center;
 }
 
-.profile{
-    color: #181e2c;
-    background-color: #e5ebf8;
-    padding: 10px 20px;
-    transition: all .3s linear;
-    cursor: pointer;
-    border-radius: 5px;
-    text-shadow:  1px 1px 1px #181e2c;
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(65, 2, 2, 0.22);
-}
-
-.profile:hover{
-    color: #e5ebf8;
-    background-color: #181e2c;
-
-}
-
 .about-us-image-for-desktop{
     display: none;
 }
