@@ -62,7 +62,7 @@
 
 .carousel-item {
     margin-top: 30px;
-}
+} */
 
 .ui-logo, .osun-logo{
     height: 100px;
@@ -82,6 +82,12 @@
     background-repeat: no-repeat;
     background-size: cover;
    background-position: center;
+}
+
+.about-image h2{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #181e2c;
+    font-family: cursive;
 }
 
 .about-us-image-for-desktop{
@@ -251,6 +257,9 @@ desktop view
         background-position: center;
     }
 
+    .about-image h2{
+        font-size: 40px;
+    }
 
     .mission-vison{
         display:  flex;

@@ -44,6 +44,7 @@ header {
 .carousel,
 .carousel-item {
     margin-top: 0px;
+    font-family: cursive;
 }
 
 .first {
@@ -100,15 +101,15 @@ header {
     background-position: center;
 }
 
-.first h2,.second h2,  .third h2 ,.fourth h2, .about-image h2, .projects-image h2 , .contact-img h2{
-    text-shadow: 2px 1px 1px #181e2c;
+.first h2,.second h2,  .third h2 ,.fourth h2, .projects-image h2 , .contact-img h2{
+    text-shadow: 1px 1px 1px #181e2c;
     font-size: 40px;
     text-align: center;
-
+    font-family: cursive;
 }
 
  .first p, .second p, .third p,  .fourth p,.about-image p,.contact-img p,  .projects-image p{
-    text-shadow: 2px 1px 1px #181e2c;
+    text-shadow: 1px 1px 1px #181e2c;
     text-align: center;
     padding: 0 20px;
     font-size: 18px;
@@ -190,7 +191,7 @@ a:hover {
 }
 
 .ui-logo,
-.osun-logo {
+.osun-logo,.kogi-logo,.Nimet-logo,.kwara-state-logo,.phcn {
     height: 100px;
     width: auto;
 }
