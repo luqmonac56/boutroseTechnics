@@ -51,7 +51,6 @@ list_items.forEach((e) =>
 );
 
 function hideClose() {
-    // closeBtn.style.display = "none";
     closeBtn.classList.add("hide");
 }
 
