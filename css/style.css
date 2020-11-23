@@ -55,7 +55,7 @@ header {
     height: 60vh;
     width: auto;
     color: #e5ebf8;
-    background: url(../images/24.jpg);
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605757066/24_iq2bmt.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +69,7 @@ header {
     align-items: center;
     height: 60vh;
     color: #e5ebf8;
-    background: url(../images/3.jpg);
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603517999/3_qu3kba.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -82,7 +82,7 @@ header {
     align-items: center;
     height: 60vh;
     color: #e5ebf8;
-    background-image: url(../images/1.JPG);
+    background-image: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603517998/1_b3avkx.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -95,7 +95,7 @@ header {
     align-items: center;
     height: 60vh;
     color: #e5ebf8;
-    background: url(../images/28.jpg);
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605757066/28_bnrx9y.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -292,6 +292,7 @@ desktop view
 */
 
 @media (min-width:992px) {
+
     /* nav bar styling */
     .desktop-nav {
         display: flex;
@@ -322,7 +323,7 @@ desktop view
         height: 90vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/24.jpg);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605757066/24_iq2bmt.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
@@ -336,7 +337,7 @@ desktop view
         height: 90vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/3.jpg);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603517999/3_qu3kba.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -349,7 +350,7 @@ desktop view
         height: 90vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/1.JPG);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603517998/1_b3avkx.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -362,7 +363,7 @@ desktop view
         height: 90vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/28.jpg);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605757066/28_bnrx9y.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -399,44 +400,51 @@ desktop view
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
     }
+    
     /* footer */
     footer {
-        /* padding:0 7%; */
         width: auto;
         font-size: 16px;
         margin-top: -200px;
-        /* display: flex; */
     }
+
     .logos {
         margin-left: 7%;
     }
+
     .logos img {
         margin-left: 7px;
         margin-right: 7px;
         width: 20px;
     }
+
     .logos .logo2 {
         margin-top: 0;
         margin-bottom: 2rem;
     }
+
     .ul1 li {
         margin-bottom: 1rem;
         text-align: left;
         font-size: 16px;
     }
+
     .ul2 li {
         margin-bottom: 1rem;
         text-align: left;
         font-size: 16px;
     }
+
     .ul1 li a,
     .ul2 li a {
         font-size: 16px;
     }
+
     ul li a {
         text-align: left;
         color: white;
     }
+
     .lastPart {
         padding-right: 80px;
         display: flex;
@@ -542,7 +550,7 @@ Tablet view
         height: 80vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/24.jpg);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605757066/24_iq2bmt.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
@@ -556,7 +564,7 @@ Tablet view
         height: 80vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/3.jpg);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603517999/3_qu3kba.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -568,7 +576,7 @@ Tablet view
         height: 80vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/1.JPG);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1603517998/1_b3avkx.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -580,7 +588,7 @@ Tablet view
         height: 80vh;
         width: auto;
         color: #e5ebf8;
-        background: url(../images/28.jpg);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605757066/28_bnrx9y.jpg);
         background-size: cover;
         background-position: center;
     }

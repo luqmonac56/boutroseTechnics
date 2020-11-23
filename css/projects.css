@@ -25,7 +25,6 @@
 
 .previous-project img{
     width: 100%;
-    /* height: 100%; */
     padding: 0 20px;
     margin-bottom: 30px;
 }
@@ -44,9 +43,6 @@
     outline: none;
 }
 
-
-
-
 .projects-image{
     display: flex;
     flex-direction: column;
@@ -55,7 +51,7 @@
     height: 65vh;
     width:100%;
     color: #e5ebf8;
-    background: url(../images/20.jpg);
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605905545/20_q88f9k.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,92 +102,12 @@ Tablet view
     height: 70vh;
     width:auto;
     color: #e5ebf8;
-    background: url(../images/20.jpg);
+    background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605905545/20_q88f9k.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     }
-
-
-
-   /* footer */
-
-   /* footer{
-    width: auto;
-    font-size: 16px;
-    }
-
-    .logos{
-        margin-left: 2%;
-    }
-
-    
-    .logos img{
-        margin-left: 7px;
-        margin-right: 7px;
-        width: 20px;
-    }
-
-    .logos .logo2{
-        margin-top: 0;
-        margin-bottom: 2rem;
-    }
-            
-            
-    .ul1 li{ 
-        margin-bottom: 1rem;
-        text-align: left;
-        font-size: 16px;
-    }
-
-    .ul2 li{
-        margin-bottom: 1rem;
-        text-align: left;
-        font-size: 16px;
-    }
-
-    .ul1 li a, .ul2 li a{
-        font-size: 16px;
-    }
-            
-            
-    ul li a{
-        text-align: left;
-        color: white;
-    }
-            
-    .lastPart{
-        padding-right: 10px;
-        display: flex;
-        justify-content: left;
-        align-items: flex-end;
-        flex-direction: column;
-    }
-
-    footer.flex{
-        max-width: 1400px;
-        margin: 40px auto 0 auto;
-        line-height: 1.6rem;
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
-    }
-        
-    .logos,.ul1{
-        box-sizing: border-box;
-    }
-        
-
-
-    footer .profile{
-        margin-bottom: 0;
-        margin-top: 20px;
-    }
-
-    .lastPart p{
-        margin-top: 20px;
-    } */
     
 }
 
@@ -238,7 +154,7 @@ Tablet view
         height: 90vh;
         width:auto;
         color: #e5ebf8;
-        background: url(../images/20.jpg);
+        background: url(https://res.cloudinary.com/luqmonac56/image/upload/v1605905545/20_q88f9k.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
