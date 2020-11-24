@@ -143,13 +143,14 @@ Tablet view
         flex-basis: 46%;
     }
 
-  
+}
 
 /* 
 desktop view 
 */
 
-@media (min-width:992px){
+@media (min-width:992px) {
+
     /* nav bar styling */
     .desktop-nav{
         display: flex;
