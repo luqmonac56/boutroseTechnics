@@ -4,9 +4,9 @@
 }
 
 .section2 .projects{
-    font-size: 45px;
-    margin: 0 0 10px 0;
-    font-weight: 500;
+    font-size: 40px;
+    margin: 30px 0 30px 0;
+    font-weight: 300;
 }
 
 .latest-projects{
@@ -93,6 +93,9 @@ Tablet view
     display: flex;
     margin-left: 18px;
     }
+    .section2 .projects{
+    margin: -50px 0 50px 0;
+}
 
    .projects-image{
     display: flex;
@@ -198,86 +201,3 @@ Tablet view
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
     }
-
-
-
-
-    /* footer */
-
-    /* footer{
-        width: auto;
-        font-size: 16px;
-    }
-    
-    .logos{
-        margin-left: 7%;
-    }
-
-       
-    .logos img{
-        margin-left: 7px;
-        margin-right: 7px;
-        width: 20px;
-    }
-
-    .logos .logo2{
-        margin-top: 0;
-        margin-bottom: 2rem;
-    }
-            
-            
-    .ul1 li{ 
-        margin-bottom: 1rem;
-        text-align: left;
-        font-size: 16px;
-    }
-
-    .ul2 li{
-        margin-bottom: 1rem;
-        text-align: left;
-        font-size: 16px;
-    }
-
-    .ul1 li a, .ul2 li a{
-        font-size: 16px;
-    }
-            
-            
-    ul li a{
-        text-align: left;
-        color: white;
-    }
-            
-    .lastPart{
-        padding-right: 80px;
-        display: flex;
-        justify-content: left;
-        align-items: flex-end;
-        flex-direction: column;
-    }
-
-    footer.flex{
-        max-width: 1400px;
-        margin: 40px auto 0 auto;
-        line-height: 1.6rem;
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
-    }
-        
-    .logos,.ul1{
-        box-sizing: border-box;
-    }
-        
-
-
-    footer .profile{
-        margin-bottom: 0;
-        margin-top: 20px;
-    }
-
-    .lastPart p{
-        margin-top: 20px;
-    } */
-
-}
