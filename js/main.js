@@ -74,3 +74,25 @@ function clickOutside(e) {
         closeBtn.style.display = "none";
     }
 }
+
+//Back to top button
+$(function() {
+    var btn = $('.back-to-top');
+  
+    $(window).scroll(function() {
+      if ($(window).scrollTop() < 120) {
+        btn.addClass('hidden');
+      } else {
+        btn.removeClass('hidden');
+      }
+    });
+  });
+
+/* Activate Wow.js */
+new WOW().init();
+
+
+/* Preloader */
+// $(window).on( "load", function() {
+// 	$(".load").fadeOut("slow");
+// })
