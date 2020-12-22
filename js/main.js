@@ -93,6 +93,21 @@ new WOW().init();
 
 
 /* Preloader */
-// $(window).on( "load", function() {
-// 	$(".load").fadeOut("slow");
-// })
+
+// const loader = document.querySelector('.loader');
+// const main = document.querySelector('.main');
+
+// function init(){
+//  setTimeout(() => {
+//     loader.style.opacity = 0;
+//     loader.style.display = 'none';
+
+//     main.style.display = 'block';
+//     setTimeout(() => {
+//         main.style.opacity = 1
+//     }, 30)
+    
+//  }, 3000)
+// }
+
+// init();

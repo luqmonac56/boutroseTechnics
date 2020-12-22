@@ -790,16 +790,18 @@ nav {
 .hidden{
     display: none;
 }
+
+
 /* /*------------------------------
           Preloader
 ------------------------------*/
 
-/*.load {
+.loader {
     position:fixed;
     top:0;
     left:0;
     z-index: 9999;
-    background-color: #fff;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -807,7 +809,7 @@ nav {
     align-items: center;
 }
 
- .load hr{
+ .loader span{
     width:20px;
     height:20px;
     position:absolute;
@@ -815,10 +817,11 @@ nav {
     animation:spin 2s ease infinite;
 }
 
-.load :first-child{background:#e5ebf8;animation-delay:-1.5s}
-.load :nth-child(2){background:#0a3d62;animation-delay:-1s}
-.load :nth-child(3){background#e5ebf8;animation-delay:-0.5s}
-.load :last-child{background:#0a3d62}
+.loader :first-child{background:#e5ebf8;animation-delay:-1.5s}
+.loader :nth-child(2){background:#0a3d62;animation-delay:-1s}
+.loader :nth-child(3){background:#e5ebf8;animation-delay:-0.5s}
+.loader :last-child{background:#0a3d62}
+
 
 @keyframes spin{
   0%,100% {
@@ -833,4 +836,11 @@ nav {
   75% {
       transform:translate(0, 160%)
   }
+
+}
+
+/* .main{
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
 } */
