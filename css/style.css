@@ -841,6 +841,6 @@ nav {
 
 .main{
     opacity: 0;
-    display: none;
+    /* display: none; */
     transition: opacity 1s ease-in;
 }
