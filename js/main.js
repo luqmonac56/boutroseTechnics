@@ -107,7 +107,7 @@ function init(){
         main.style.opacity = 1
     }, 30)
     
- }, 3000)
+ }, 4000)
 }
 
 init();
