@@ -101,7 +101,7 @@ header {
     background-position: center;
 }
 
-.first h1,.second h2,  .third h2 ,.fourth h2, .projects-image h2 , .contact-img h2{
+.first h2,.second h2,  .third h2 ,.fourth h2, .projects-image h2 , .contact-img h2{
     text-shadow: 1px 1px 1px #181e2c;
     font-size: 40px;
     text-align: center;
@@ -171,6 +171,16 @@ a:hover {
     height: 35vh;
 }
 
+/* .section1a .inner-div1{
+    width: 100%;
+    padding-top: 200%;
+    background-color: lawngreen;
+    background-image: url(https://res.cloudinary.com/luqmonac56/image/upload/v1610953342/museums-victoria--mvXmEdAgVE-unsplash-min_vp4gew.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+} */
+
 .section1a h2 {
     font-size: 25px;
     margin-top: 10px;
@@ -238,23 +248,29 @@ footer {
 }
 
 footer ul {
+    background: hsl(233, 26%, 24%);
     padding: 0;
+
 }
 
 .ul1 {
     margin-bottom: 0;
     margin-top: 0;
+
 }
 
 .ul1 li {
     margin-bottom: 3rem;
     margin-top: 0;
     text-align: center;
+    background: hsl(233, 26%, 24%);
+
 }
 
 .ul2 li {
     margin-bottom: 3rem;
     text-align: center;
+    background: hsl(233, 26%, 24%);
     margin-top: 0;
 }
 
@@ -266,6 +282,7 @@ ul li a {
     margin-bottom: 0;
     text-align: center;
     color: white;
+    background: inherit;
 }
 
 ul li {
@@ -277,7 +294,8 @@ ul li {
     position: relative;
     margin-top: 50px;
     color: white;
-    font-size: 16px
+    font-size: 16px;
+    background: hsl(233, 26%, 24%);
 }
 
 .lastPart {
