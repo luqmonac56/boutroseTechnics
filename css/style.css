@@ -171,16 +171,6 @@ a:hover {
     height: 35vh;
 }
 
-/* .section1a .inner-div1{
-    width: 100%;
-    padding-top: 200%;
-    background-color: lawngreen;
-    background-image: url(https://res.cloudinary.com/luqmonac56/image/upload/v1610953342/museums-victoria--mvXmEdAgVE-unsplash-min_vp4gew.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-
-} */
-
 .section1a h2 {
     font-size: 25px;
     margin-top: 10px;
@@ -245,6 +235,19 @@ footer {
     margin-right: 7px;
     width: 30px;
     margin-bottom: 30px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.social-media .fa-twitter, .social-media .fa-envelope,.social-media .fa-facebook,.social-media .fa-whatsapp{
+    color: white;
+    margin-left: 10px;
 }
 
 footer ul {
@@ -809,8 +812,28 @@ nav {
     display: none;
 }
 
+/*------------------------------
+   whatsapp chat
+------------------------------*/
 
-/* /*------------------------------
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    display: block;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.whatsapp i {
+    display: block;
+    padding: 6px;
+    color: rgb(126, 252, 0);    
+}
+
+
+ /*------------------------------
           Preloader
 ------------------------------*/
 
